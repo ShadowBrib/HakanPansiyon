@@ -1,0 +1,27 @@
+body{
+    background-color:white;
+    margin: 0;
+   
+}
+.logo{
+    background-color:lightcyan;
+    padding: 30px 5%;
+    font-size: larger;
+
+}
+.yazi {
+    width: 45%;
+display: inline-block;
+}
+.tuş1{
+    text-align: end;
+    width: 45%;
+display: inline-block;
+}
+.row{
+    background-color: yellow;
+    padding: 30px 5%;
+    display: block;
+    width: auto;
+    
+}
