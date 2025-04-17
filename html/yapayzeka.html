@@ -1,0 +1,65 @@
+Tabii ki! İşte CNC makineleri ve parçaları satmak için temel bir HTML ve CSS tasarımıyla bir web sitesi oluşturmak için bir başlangıç kodu:
+HTML Kodu:
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNC Market</title>
+    <link rel="stylesheet" href="../html/yapayzeka.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Şevki Makina</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#products">Ürünler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="banner">
+        <h2>En kaliteli CNC makineleri ve yedek parçaları</h2>
+        <p>Sektörünüzün ihtiyaçlarına uygun ürünleri keşfedin!</p>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h2>Ürünlerimiz</h2>
+            <div class="product">
+                <h3>CNC Torna Makinesi</h3>
+                <p>Yüksek hassasiyetli torna işleme.</p>
+            </div>
+            <div class="product">
+                <h3>CNC Freze Makinesi</h3>
+                <p>Güçlü ve verimli frezeleme çözümleri.</p>
+            </div>
+            <div class="product">
+                <h3>CNC Parçaları</h3>
+                <p>Her türlü yedek parça ve aksesuar.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Bizimle İletişime Geçin</h2>
+            <form action="#">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CNC Market. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
