@@ -7,6 +7,7 @@ body {
 }
 
 .container {
+    text-align: center;
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -76,6 +77,6 @@ footer {
     padding: 1rem 0;
     background: #333;
     color: #fff;
+    color:rg ;
 }
-
 
