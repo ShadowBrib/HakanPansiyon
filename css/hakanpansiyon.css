@@ -12,11 +12,20 @@ body {
     overflow: hidden;
 }
 
-.harita{
-position:absolute ;
-left: 0;
-
-}
+.contact-map {
+    flex: 1 1 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Mobilde alt alta gelsin */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  }
+  
 .container2 {
     text-align: center;
     width: 80%;
