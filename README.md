@@ -17,9 +17,18 @@ Bu proje, Alanya’da bulunan HAKAN PANSİYON için hazırlanmış bir tanıtım
 2. Dosyaları yerel sunucunuzda çalıştırın (örn. VS Code Live Server).
 
 ## Resimler
-![Image](https://github.com/user-attachments/assets/d0bb17ca-8df8-4ee4-95e1-fbc9bdd1b3cb)
-![Image](https://github.com/user-attachments/assets/700a2c3c-fe06-407e-8041-834330d94a4a)
-![Image](https://github.com/user-attachments/assets/8bd68eab-84ba-4292-b24e-867420b334b0)
-![Image](https://github.com/user-attachments/assets/cbb83986-03a1-4f14-a806-0b15c3bea4ab)
-20.03.2025  
+Anasayfa 
+-
+![Image](https://github.com/user-attachments/assets/336f6fca-3fd3-4f20-b057-d3d58a07697f)
+
+![Image](https://github.com/user-attachments/assets/72090dea-31ea-488c-b644-f7d9beed90bf)
+
+![Image](https://github.com/user-attachments/assets/d4732ef9-2c61-4ccf-9448-4133f3d418f8)
+
+Oda Detayı
+-
+![Image](https://github.com/user-attachments/assets/541d2e70-ad46-4f2d-b922-53208f194d6d)
+
+Başlangıç Tarihi           Bitiş Tarihi
+   20.03.2025               21.05.2025
  
