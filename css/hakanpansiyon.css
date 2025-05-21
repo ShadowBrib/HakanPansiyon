@@ -16,36 +16,6 @@ body {
     
 }
 
-.WhatsApp
-{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:100px;
-	right:25px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-    font-size:30px;
-	box-shadow: 0px 0px 10px black;
-    transition: 0.3s;
-}
-
-.WhatsApp:hover
-{
-	background-color:#FFF;
-	color:#25d366;
-	border-radius:50px;
-	box-shadow: 0px 0px 20px black;
-    transition: 0.3s;
-}
-
-.margin_WhatsApp
-{
-	margin-top:16px;
-}
-
 .harita{
 position:absolute ;
 left: 0;
@@ -125,3 +95,91 @@ footer {
     color:rg ;
 }
 
+.social-icons-container {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    display: flex;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 0 10px black;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+}
+
+/* Renkler */
+.social-icon.whatsapp {
+    background-color: #25d366;
+}
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+.social-icon.instagram {
+    background-color: #e4405f;
+}
+.social-icon.twitter {
+    background-color: #1da1f2;
+}
+
+/* Hover efektleri */
+.social-icon:hover {
+    background-color: white;
+    color: inherit;
+}
+
+.social-icon.whatsapp:hover {
+    color: #25d366;
+}
+.social-icon.facebook:hover {
+    color: #3b5998;
+}
+.social-icon.instagram:hover {
+    color: #e4405f;
+}
+.social-icon.twitter:hover {
+    color: #1da1f2;
+}
+
+#contact {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    max-width: 500px;  /* İletişim alanı genişliği */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact h2 {
+    font-size: 1.5rem; /* Başlık küçültüldü */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contact form label {
+    font-size: 0.9rem;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+}
+
+#contact form textarea {
+    resize: vertical;
+    min-height: 80px; /* Daha küçük textarea */
+}
+
+#contact form button {
+    cursor: pointer;
+}
