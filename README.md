@@ -29,6 +29,6 @@ Oda Detayı
 -
 ![Image](https://github.com/user-attachments/assets/541d2e70-ad46-4f2d-b922-53208f194d6d)
 
-Başlangıç Tarihi           Bitiş Tarihi
-   20.03.2025               21.05.2025
+Başlangıç Tarihi  20.03.2025               
  
+Bitiş Tarihi  21.05.2025
